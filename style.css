@@ -18,6 +18,7 @@ body {
 
 h1 {
     font-size: 28px;
+    font-weight: 500;
     text-align: center;
     margin: 40px auto 10px auto;
 }
@@ -69,6 +70,7 @@ p {
 
 h2 {
     font-size: 16px;
+    font-weight: 500;
     text-align: center;
     margin-top: 60px;
 }
@@ -76,6 +78,7 @@ h2 {
 .popis {
     font-size: 13px;
     color: #8B8B8B;
+    font-weight: 300;
 }
 
 .naplanujeme,
