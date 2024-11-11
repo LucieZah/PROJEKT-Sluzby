@@ -6,14 +6,14 @@ html {
 body {
     font-family: Montserrat, sans-serif;
     background-color: #FAFAFA;
-    margin: 60px 20px 80px 20px;
+    padding: 60px 20px;
 }
 
 
 .cestovatel {
     width: 350px;
     display: block;
-    margin: 60px auto 0 auto;
+    margin: 0 auto;
 }
 
 h1 {
@@ -106,3 +106,145 @@ h2 {
 }
 
 
+@media screen and (min-width: 640px) {
+    .cestovatel {
+        width: 400px;
+    }
+
+    .tlacitka {
+        display: flex;
+        align-items: center;
+        margin-top: 30px;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .tlacitko_dobrodruzstvi {
+        margin: 0;
+    }
+
+    h1 {
+        margin: 30px auto 10px auto;
+    }
+
+    h2 {
+        margin-top: 80px;
+    }
+
+    p {
+        max-width: 550px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .sluzby {
+        display: flex;
+        gap: 20px;
+        margin-top: 40px;
+    }
+
+    .naplanujeme,
+    .zajistime,
+    .sezeneme,
+    .doporucime,
+    .objedname,
+    .pronajmeme {
+        margin: 0;
+        width: calc(100% / 3);
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding: 20px 15px 20px 15px;
+        height: 170px;
+    }
+}
+
+
+@media screen and (min-width: 1100px) {
+    body {
+        padding: 60px 80px;
+        margin: 0;
+    }
+
+    .stranka {
+        max-width: 1040px;
+        margin: 0 auto;
+    }
+
+    .happy_travels {
+        display: flex;
+        align-items: center;
+    }
+
+    .cestovatel {
+        width: 425px;
+        order: 1;
+    }
+
+    .uvod {
+        display: flex;
+        flex-direction: column;
+        order: 0;
+        align-items: flex-start;
+        width: 490px;
+        margin-right: 60px;
+    }
+
+    h1,
+    .ramecek,
+    .o_nas,
+    .tlacitka {
+        margin-left: 0px;
+        margin-right: 0;
+        text-align: left;
+    }
+
+    h2 {
+        margin-top: 0;
+        text-align: left;
+    }
+
+    .sluzby{
+        margin-top: 0;
+        width: 550px;
+    }
+
+    .kancelar,
+    .delegati {
+        display: flex;
+        align-items: center;
+        margin-top: 80px;
+    }
+
+    .sluzby_kancelare {
+        order: 0;
+        margin-right: 60px;
+    }
+
+    .kan {
+        order: 1;
+        width: 430px;
+    }
+
+    .del {
+        width: 430px;
+    }
+
+    .sluzby_delagatu {
+        margin-left: 60px;
+    }
+
+    p {
+        margin: 0;
+        text-align: left;
+    }
+    
+    .naplanujeme,
+    .zajistime,
+    .sezeneme,
+    .doporucime,
+    .objedname,
+    .pronajmeme {
+        height: 190px;
+    }
+}
